@@ -1,5 +1,6 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import Hero from "../components/Hero.astro";
 export const prerender = true;
 ---
 
@@ -7,6 +8,12 @@ export const prerender = true;
   <main
     class="dark:text-white bg-center text-black dark:bg-gradient-to-b bg-gradient-to-b from-light-100 dark:from-dark-900 dark:to-dark-700 to-light-400"
   >
+    <Hero
+      titleMain="Bonjour je m'appelle"
+      subtitle="Maxance Gusse"
+      body="Saucisse"
+      href="apropos"
+    />
   </main>
 </Layout>
 
